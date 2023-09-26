@@ -146,17 +146,6 @@ textarea{
     margin-left: 10px;
     color: #4C5CFF;
 }
-/*input[type="checkbox"],input[type="radio"]{appearance: none;
-    background-color: rgb(174, 174, 174);width: 20px; height: 20px; }input
-    [type="checkbox"]:checked,input[type="radio"]:checked { background-color: #4181FF;} input[type="radio"]
-    {border-radius: 50%;}
-    input[type="radio"]{appearance: none; background-color: rgb(218, 218, 218); width: 20px; height: 20px;}
-
-    input[type="radio"]:checked{ background-color: #4181FF;} 
-    
-    input[type="radio"]{ border-radius: 50%; }*/
-
-/*Inputs dos botões "sim" e "não"*/
 input[type="radio"]{appearance: none; background-color: rgb(218, 218, 218); width: 20px; height: 20px;}
 
 input[type="radio"]:checked{ background-color: #4181FF;} 
@@ -199,34 +188,41 @@ p{
 /*Box de jogo "favorito"*/
 
 /*Card 01*/
-.lista1{
-    margin-left: 20px;
-    margin-right: 100px;
-    height: 139px;
-    display: flex;
-    background-color: #10086A;
-    border-radius: 20px;
-    width: 500px;
-}
+
 
 /*card2*/
-.lista2{
+.lista{
+    margin-top: 20px;
     margin-left: 20px;
     margin-right: 100px;
-    margin-top: 20px;
+    height: 139px;
+    display: flex;
+    background-color: #3C4EFF;
+    border-radius: 20px;
+    width: 500px;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.jogofav{
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 100px;
     height: 139px;
     display: flex;
     background-color: #10086A;
     border-radius: 20px;
     width: 500px;
+    justify-content: space-between;
+    padding: 2%;
 }
     
 /*Cor do texto*/
 h2{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 p{
-    color: white;
+    color: rgb(255, 255, 255);
 }
     
 /*Espaçamento do texto à direita*/
@@ -253,42 +249,7 @@ p{
     margin-right: 5px;
     cursor: pointer;
 }
-/*Box de jogo "Não favorito"*/
 
-/*Card 03*/
-.lista3{
-    margin-left: 20px;
-    margin-right: 100px;
-    margin-top: 20px;
-    display: flex;
-    background-color: #3C4EFF;
-    height: 139px;
-    width: 500px; 
-    border-radius: 18px;
-}
-/*Card 04*/
-.lista4{
-    margin-left: 20px;
-    margin-right: 100px;
-    margin-top: 20px;
-    display: flex;
-    background-color: #3C4EFF;
-    height: 139px;
-    width: 500px; 
-    border-radius: 18px;
-}
-
-/*Card 05*/
-.lista5{
-    margin-left: 20px;
-    margin-right: 100px;
-    margin-top: 20px;
-    display: flex;
-    background-color: #3C4EFF;
-    height: 139px;
-    width: 500px; 
-    border-radius: 18px;
-}
     
 /*Espaçamento do texto à direita*/
 .todo{
@@ -313,4 +274,11 @@ p{
     margin-top: 15px;
     margin-right: 5px;
     cursor: pointer;
+}
+
+.infogames{
+
+    display: flex;
+    height: 130px;
+    align-items: center;
 }
