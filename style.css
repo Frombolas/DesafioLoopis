@@ -146,17 +146,6 @@ textarea{
     margin-left: 10px;
     color: #4C5CFF;
 }
-/*input[type="checkbox"],input[type="radio"]{appearance: none;
-    background-color: rgb(174, 174, 174);width: 20px; height: 20px; }input
-    [type="checkbox"]:checked,input[type="radio"]:checked { background-color: #4181FF;} input[type="radio"]
-    {border-radius: 50%;}
-    input[type="radio"]{appearance: none; background-color: rgb(218, 218, 218); width: 20px; height: 20px;}
-
-    input[type="radio"]:checked{ background-color: #4181FF;} 
-    
-    input[type="radio"]{ border-radius: 50%; }*/
-
-/*Inputs dos botões "sim" e "não"*/
 input[type="radio"]{appearance: none; background-color: rgb(218, 218, 218); width: 20px; height: 20px;}
 
 input[type="radio"]:checked{ background-color: #4181FF;} 
@@ -199,7 +188,26 @@ p{
 /*Box de jogo "favorito"*/
 
 /*Card 01*/
-.lista1{
+
+
+/*card2*/
+<<<<<<< HEAD
+=======
+.lista{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 100px;
+    height: 139px;
+    display: flex;
+    background-color: #3C4EFF;
+    border-radius: 20px;
+    width: 500px;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.jogofav{
+    margin-top: 25px;
     margin-left: 20px;
     margin-right: 100px;
     height: 139px;
@@ -207,6 +215,73 @@ p{
     background-color: #10086A;
     border-radius: 20px;
     width: 500px;
+    justify-content: space-between;
+    padding: 2%;
+}
+    
+/*Cor do texto*/
+h2{
+    color: rgb(255, 255, 255);
+}
+p{
+    color: rgb(255, 255, 255);
+}
+    
+/*Espaçamento do texto à direita*/
+.done{
+    margin-left: 20px;
+}
+    
+/*Parâmetro da figure do joistick*/
+.figurejoistick01{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+    
+/*Parâmetro da figure trash (lixeira)*/
+.lixeira{
+    margin-top: 16px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+    
+/*Parâmetro da figure favorito (estrela)*/
+.favoritIcon{
+    margin-top: 15px;
+    margin-right: 5px;
+    cursor: pointer;
 }
 
-/*card2*/
+    
+/*Espaçamento do texto à direita*/
+.todo{
+    margin-left: 20px;
+}
+    
+/*Parâmetro da figure do joistick*/
+.figurejoistick02{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+    
+/*Parâmetro da figure trash (lixeira)*/
+.lixeira02{
+    margin-top: 16px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+    
+/*Parâmetro da figure favorito (estrela)*/
+.favoritIcon02{
+    margin-top: 15px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.infogames{
+
+    display: flex;
+    height: 130px;
+    align-items: center;
+}
+>>>>>>> 407dea380aba74890f572f3a10966c8398f2d54a
